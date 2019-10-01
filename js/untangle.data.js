@@ -16,7 +16,7 @@ function randRadius() {
 }
 untangleGame.createRandomCircles = function(width, height) {
 // randomly draw 5 circles
-var circlesCount = 1000;
+var circlesCount = 250;
 //var circleRadius = randRadius();
 for (var i=0;i<circlesCount;i++) {
 var x = Math.random()*width;
